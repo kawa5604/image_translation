@@ -16,7 +16,7 @@ args = vars(ap.parse_args())
 
 image = cv2.imread(args["image"])
 cv2.imshow("original", image)
-# cv2.waitKey(0)
+cv2.waitKey(0)
 
 # Shifting the original image
 # The first part is a translation matrix, this will determine how many pixels will shift
